@@ -1,0 +1,11 @@
+.Login::before {
+    content: "";
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-image: url("../src/assets/login-bg.jpg");
+    width: 70%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+}

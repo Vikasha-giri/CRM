@@ -1,0 +1,15 @@
+.Login{
+   &::before{
+       content: '';
+    background: {
+        size:cover !important;
+        repeat: no-repeat !important;
+        position: left center !important;
+        image: url('../../assets/images/temp/login/login-bg.jpg')
+    }
+    width: 70%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+   }
+}
