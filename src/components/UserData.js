@@ -28,7 +28,7 @@ const UserData = () => {
                             <span className="d-sm-block d-none ms-sm-1">Tommy Malone</span>
                             <i className="fa-solid fa-chevron-down fa-sm me-1 ms-md-2"></i>
                         </button>
-                        <ul className="dropdown-menu border-0 shadow rounded-4 dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                        <ul className="dropdown-menu border-0 shadow rounded-2 dropdown-menu-end" aria-labelledby="dropdownMenuButton">
                             <li><Link to={"#profile"} className="dropdown-item">Profile</Link></li>
                             <li><Link to={'/'} className="dropdown-item">Logout</Link></li>
                         </ul>

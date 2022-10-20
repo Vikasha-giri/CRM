@@ -32,31 +32,31 @@ const PersonalData = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="full_name" className="form-label">Full Name*</label>
+                        <label htmlFor="full_name" className="form-label">Full Name*</label>
                         <input type="text" className="form-control" placeholder="Bobby" required />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="last_name" className="form-label">Last Name*</label>
+                        <label htmlFor="last_name" className="form-label">Last Name*</label>
                         <input type="text" className="form-control" placeholder="Marshall" required />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="email" className="form-label">Email*</label>
+                        <label htmlFor="email" className="form-label">Email*</label>
                         <input type="email" className="form-control" required placeholder="ko@buuge.net" />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="phone" className="form-label">Phone Number*</label>
+                        <label htmlFor="phone" className="form-label">Phone Number*</label>
                         <input id="phone" className="form-control" placeholder="Phone Number" name="phone" type="tel" />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="extension" className="form-label">Extension</label>
+                        <label htmlFor="extension" className="form-label">Extension</label>
                         <input type="text" className="form-control" placeholder="Extension" />
                     </div>
                 </div>

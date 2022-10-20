@@ -13361,6 +13361,18 @@ a:focus {
   font-family: "Milliard" !important;
 }
 
+.fs-12 {
+  font-size: 0.75rem !important;
+}
+
+.fs-14 {
+  font-size: 0.875rem !important;
+}
+
+.fs-15 {
+  font-size: 0.938rem !important;
+}
+
 .z-index-1 {
   z-index: 1 !important;
 }
@@ -13399,6 +13411,10 @@ a:focus {
 
 .bg-light-secondary {
   background-color: #FEFEFE !important;
+}
+
+.text-dark-blue {
+  color: #1A427D !important;
 }
 
 .nav-pills-custom .nav-link {
@@ -13472,6 +13488,10 @@ label {
   width: 1.3em;
   height: 1.3em;
   margin-top: 0em;
+}
+
+.textarea-resize-none {
+  resize: none !important;
 }
 
 /* Clearable text inputs */
@@ -13765,5 +13785,90 @@ label {
     margin-left: 0;
   }
 }
+.conversation-section .msg-icon {
+  width: 10px;
+  height: 10px;
+}
+.conversation-section .msg-icon .fa-message {
+  font-size: 5px;
+  line-height: 1;
+}
+.conversation-section-content .msg-section-left {
+  border-top-left-radius: 0;
+  border-top-right-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
+}
+.conversation-section-content .msg-section-right {
+  border-top-left-radius: 1.6rem;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
+}
+.conversation-section-right .user-img {
+  width: 7rem;
+  height: 7rem;
+}
+@media (min-width: 1200px) {
+  .conversation-section-content {
+    height: calc(100vh - 120px);
+    overflow: hidden;
+  }
+  .conversation-section-content .msg-section {
+    height: calc(100vh - 400px);
+    overflow: auto;
+  }
+  .conversation-section-left {
+    height: calc(100vh - 120px);
+    overflow: auto;
+  }
+  .conversation-section-right {
+    height: calc(100vh - 120px);
+    overflow: auto;
+  }
+}
+@media (max-width: 1199.98px) {
+  .conversation-section-content .msg-section {
+    height: 400px;
+    overflow: auto;
+  }
+}
 
+.opportunity-row .col {
+  min-width: 18rem;
+}
+.opportunity-row .col:not(:last-child) {
+  border-right: 1px solid rgba(33, 37, 41, 0.1);
+}
+
+.opportunity-filter .col-custom-1 {
+  width: 12rem;
+}
+.opportunity-filter .col-custom-2 {
+  width: 8rem;
+}
+.opportunity-filter .col-custom-3 {
+  width: 20rem;
+}
+.opportunity-filter .col-custom:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
+.jesse_king{
+    background-color: #724632;
+  }
+  .jesse_king_message{
+    background-color: #617F29;
+  }
+  .Jackson_Hart{
+    background-color: #46488F;
+  }
+  
+  .donald_gonzales{
+    background-color: #468F8F;
+  }
+  .login-form p{
+    color: red;
+    text-transform: capitalize;
+  }
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@ import React from 'react'
 
 const OpportunityModal = () => {
     return (
-        <div className="modal fade" id="updateOpportunityModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        <div className="modal fade" id="updateOpportunityModal" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1"
             aria-labelledby="updateOpportunityLabel" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered modal-lg">
                 <div className="modal-content rounded-4">
@@ -17,7 +17,7 @@ const OpportunityModal = () => {
                             <form className="row">
                                 <div className="col-lg-6">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="select_pipeline" className="form-label">Select Pipeline</label>
+                                        <label htmlFor="select_pipeline" className="form-label">Select Pipeline</label>
                                         <select className="form-select">
                                             <option selected>-Select-</option>
                                             <option value="1">One</option>
@@ -28,7 +28,7 @@ const OpportunityModal = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="select_stage" className="form-label">Select Stage</label>
+                                        <label htmlFor="select_stage" className="form-label">Select Stage</label>
                                         <select className="form-select">
                                             <option selected>-Select-</option>
                                             <option value="1">One</option>
@@ -39,19 +39,19 @@ const OpportunityModal = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="opportunity_name" className="form-label">Opportunity Name</label>
+                                        <label htmlFor="opportunity_name" className="form-label">Opportunity Name</label>
                                         <input type="text" className="form-control" placeholder="Opportunity Name" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="opportunity_source" className="form-label">Opportunity Source</label>
+                                        <label htmlFor="opportunity_source" className="form-label">Opportunity Source</label>
                                         <input type="text" className="form-control" placeholder="Opportunity Source" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="lead_value" className="form-label">Lead Value</label>
+                                        <label htmlFor="lead_value" className="form-label">Lead Value</label>
                                         <select className="form-select">
                                             <option selected>-Select-</option>
                                             <option value="1">One</option>
@@ -62,7 +62,7 @@ const OpportunityModal = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="opportunity_status" className="form-label">Opportunity Status</label>
+                                        <label htmlFor="opportunity_status" className="form-label">Opportunity Status</label>
                                         <select className="form-select">
                                             <option selected>-Select-</option>
                                             <option value="1">One</option>
@@ -73,7 +73,7 @@ const OpportunityModal = () => {
                                 </div>
                                 <div className="col-lg-12">
                                     <div className="mb-3 mb-xl-4 pb-md-2">
-                                        <label for="action" className="form-label">Opportunity Source</label>
+                                        <label htmlFor="action" className="form-label">Opportunity Source</label>
                                         <textarea className="form-control"
                                             placeholder="Enter a description for the action (to be shown in tracking report)"
                                             rows="6"></textarea>

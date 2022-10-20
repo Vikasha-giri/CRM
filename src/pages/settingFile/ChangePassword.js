@@ -7,20 +7,20 @@ const ChangePassword = () => {
             <form className="row">
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="existing_password" className="form-label">Existing Password</label>
+                        <label htmlFor="existing_password" className="form-label">Existing Password</label>
                         <input type="password" className="form-control" placeholder="Current Password"
                             required />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="password" className="form-label">Password</label>
+                        <label htmlFor="password" className="form-label">Password</label>
                         <input type="password" className="form-control" placeholder="Password" required />
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="confirm_password" className="form-label">Confirm Password</label>
+                        <label htmlFor="confirm_password" className="form-label">Confirm Password</label>
                         <input type="password" className="form-control" placeholder="Confirm Password"
                             required />
                     </div>

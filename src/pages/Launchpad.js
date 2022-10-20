@@ -27,7 +27,7 @@ const Launchpad = () => {
                                                 <div className="w-100 lead fw-normal me-sm-3 me-md-4 my-md-0 mb-3 mt-2">
                                                     Download our app and engage with your leads on the go!
                                                 </div>
-                                                <button type="button" className="btn btn-primary btn-small">Send Link</button>
+                                                <button type="button" className="btn btn-primary btn-small">send Link</button>
                                             </div>
                                         </div>
                                     </div>
@@ -40,10 +40,10 @@ const Launchpad = () => {
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
                                                 <div className="w-100 lead fw-normal me-sm-3 me-md-4 my-md-0 mb-3 mt-2">
-                                                    Generate more leads form Google My Business
+                                                    Generate more leads htmlForm Google My Business
                                                     Monitor and reply to GMB conversation & reviews.
                                                 </div>
-                                                <button type="button" className="btn btn-primary btn-small">Send Link</button>
+                                                <button type="button" className="btn btn-primary btn-small">connect</button>
                                             </div>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@ const Launchpad = () => {
                                                     Messenger in Conversation and sync your Facebook
                                                     leads woth our CRM.
                                                 </div>
-                                                <button type="button" className="btn btn-primary btn-small">Send Link</button>
+                                                <button type="button" className="btn btn-primary btn-small">connect</button>
                                             </div>
                                         </div>
                                     </div>
@@ -73,10 +73,10 @@ const Launchpad = () => {
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
                                                 <div className="w-100 lead fw-normal me-sm-3 me-md-4 my-md-0 mb-3 mt-2">
-                                                    Generate leads form your website by connecting
+                                                    Generate leads htmlForm your website by connecting
                                                     webchat widget
                                                 </div>
-                                                <button type="button" className="btn btn-primary btn-small">Send Link</button>
+                                                <button type="button" className="btn btn-primary btn-small">connect</button>
                                             </div>
                                         </div>
                                     </div>
@@ -91,9 +91,9 @@ const Launchpad = () => {
                                                 <div className="w-100 lead fw-normal me-sm-3 me-md-4 my-md-0 mb-3 mt-2">
                                                     Connect your Stripe account to start accepting payments.
                                                     (Exting stripe API integration will continue to work, but it is advised
-                                                    to use Stripe Connect for more security)
+                                                    to use Stripe Connect htmlFor more security)
                                                 </div>
-                                                <button type="button" className="btn btn-primary btn-small">Send Link</button>
+                                                <button type="button" className="btn btn-primary btn-small">connect</button>
                                             </div>
                                         </div>
                                     </div>

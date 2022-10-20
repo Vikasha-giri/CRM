@@ -2,7 +2,7 @@ import React from 'react'
 
 const SendSmsModal = () => {
     return (
-        <div className="modal fade" id="sendSMSModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        <div className="modal fade" id="sendSMSModal" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1"
             aria-labelledby="sendSMSLabel" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered modal-lg">
                 <div className="modal-content rounded-4">

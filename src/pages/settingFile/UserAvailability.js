@@ -7,7 +7,7 @@ const UserAvailability = () => {
             <form className="row">
                 <div className="col-lg-6">
                     <div className="mb-3">
-                        <label for="meeting_location" className="form-label">Meeting Location</label>
+                        <label htmlFor="meeting_location" className="form-label">Meeting Location</label>
                         <select className="form-select">
                             <option selected="">-Select-</option>
                             <option value="1">Custom</option>
@@ -20,7 +20,7 @@ const UserAvailability = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="mb-3 mb-xl-4 pb-md-2">
-                        <label for="time_zone" className="form-label">Time Zone</label>
+                        <label htmlFor="time_zone" className="form-label">Time Zone</label>
                         <select className="form-select">
                             <option selected="">-Select-</option>
                             <option value="1">GMT-8:00 America/Los_Angels (PST)</option>
@@ -33,31 +33,31 @@ const UserAvailability = () => {
                         role="group" aria-label="Basic checkbox toggle button group">
                         <input type="checkbox" className="btn-check" id="btncheck1" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 me-2 text-uppercase"
-                            for="btncheck1">s</label>
+                            htmlFor="btncheck1">s</label>
 
                         <input type="checkbox" className="btn-check" id="btncheck2" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 me-2 text-uppercase"
-                            for="btncheck2">m</label>
+                            htmlFor="btncheck2">m</label>
 
                         <input type="checkbox" className="btn-check" id="btncheck3" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 me-2 text-uppercase"
-                            for="btncheck3">t</label>
+                            htmlFor="btncheck3">t</label>
 
                         <input type="checkbox" className="btn-check" id="btncheck4" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 me-2 text-uppercase"
-                            for="btncheck4">w</label>
+                            htmlFor="btncheck4">w</label>
 
                         <input type="checkbox" className="btn-check" id="btncheck5" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 me-2 text-uppercase"
-                            for="btncheck5">t</label>
+                            htmlFor="btncheck5">t</label>
 
                         <input type="checkbox" className="btn-check" id="btncheck6" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 me-2 text-uppercase"
-                            for="btncheck6">f</label>
+                            htmlFor="btncheck6">f</label>
 
                         <input type="checkbox" className="btn-check" id="btncheck7" autocomplete="off" />
                         <label className="btn btn-outline-primary rounded-2 text-uppercase"
-                            for="btncheck7">s</label>
+                            htmlFor="btncheck7">s</label>
                     </div>
                     <div className="row">
                         <div className="col-sm-6">

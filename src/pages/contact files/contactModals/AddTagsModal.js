@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddTagsModal = () => {
     return (
-        <div className="modal fade" id="addTagsModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        <div className="modal fade" id="addTagsModal" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1"
             aria-labelledby="addTagsLabel" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered modal-lg">
                 <div className="modal-content rounded-4">
@@ -16,7 +16,7 @@ const AddTagsModal = () => {
                             <h4 className="my-md-4 my-3 py-lg-2 py-xxl-3">Add tags to following contacts</h4>
                             <form>
                                 <div className="mb-3 mb-xl-4 pb-md-2">
-                                    <label for="select_pipeline" className="form-label">Tags*</label>
+                                    <label htmlFor="select_pipeline" className="form-label">Tags*</label>
                                     <select className="form-select" required>
                                         <option selected>Add Tags</option>
                                         <option value="1">One</option>
@@ -25,7 +25,7 @@ const AddTagsModal = () => {
                                     </select>
                                 </div>
                                 <div className="mb-3 mb-xl-4 pb-md-2">
-                                    <label for="action" className="form-label">Action</label>
+                                    <label htmlFor="action" className="form-label">Action</label>
                                     <textarea className="form-control"
                                         placeholder="Enter a description for the action (to be shown in tracking report)" rows="6"></textarea>
                                 </div>

@@ -55,7 +55,7 @@ const ContactHeader = () => {
                                         <Link to={'/bulk-actions'} className="nav-link">Bulk Actions</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to={'#restore'} className="nav-link">Restore</Link>
+                                        <Link to={'#'} className="nav-link">Restore</Link>
                                     </li>
                                 </ul>
                             </div>

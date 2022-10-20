@@ -24,9 +24,9 @@
 //     }
 // );
 if (document.querySelectorAll('.nav-item.w-100 a.nav-link').length > 0) {
-    document.querySelectorAll('.nav-item.w-100 a.nav-link').forEach(item => {
+    document.querySelectorAll('.nav-item.w-100 a.nav-link').htmlForEach(item => {
         item.addEventListener('click', function () {
-            document.querySelectorAll('.nav-item.w-100 a.nav-link').forEach(item => {
+            document.querySelectorAll('.nav-item.w-100 a.nav-link').htmlForEach(item => {
                 item.classList.remove('active');
             })
             item.classList.add('active');

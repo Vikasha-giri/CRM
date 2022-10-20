@@ -16,50 +16,50 @@ const UploadList = () => {
                                     <form className="row gx-xxl-5 gx-xl-4">
                                         <div className="col-lg-6">
                                             <div className="mb-3 mb-xl-4 pb-md-2">
-                                                <label for="full_name" className="form-label">Full Name*</label>
+                                                <label htmlFor="full_name" className="form-label">Full Name*</label>
                                                 <input type="text" className="form-control form-control-lg" placeholder="Full Name" required />
                                             </div>
                                             <div className="mb-3 mb-xl-4 pb-md-2">
-                                                <label for="phone" className="form-label">Phone Number*</label>
+                                                <label htmlFor="phone" className="form-label">Phone Number*</label>
                                                 <input id="phone" className="form-control form-control-lg" placeholder="Phone Number" name="phone" type="tel" />
                                             </div>
                                             <div className="mb-3 mb-xl-4 pb-md-2">
-                                                <label for="email" className="form-label">Email*</label>
+                                                <label htmlFor="email" className="form-label">Email*</label>
                                                 <input type="email" className="form-control form-control-lg" required placeholder="Email" />
                                             </div>
                                             <div className="mb-3 mb-xl-4 pb-md-2">
-                                                <label for="branch_manager" className="form-label">Who is the branch manager</label>
+                                                <label htmlFor="branch_manager" className="form-label">Who is the branch manager</label>
                                                 <input type="text" className="form-control form-control-lg" placeholder="Who is the branch manager" />
                                             </div>
                                             <div className="mb-3 mb-xl-4 pb-md-2">
                                                 <h5 className="mb-3 pt-1 mb-xl-4 pt-xl-2">What Type of list is this?*</h5>
                                                 <div className="form-check form-check-lg mb-2 mb-xl-3">
                                                     <input className="form-check-input" type="checkbox" id="cb1" />
-                                                    <label className="form-check-label ms-1" for="cb1">
+                                                    <label className="form-check-label ms-1" htmlFor="cb1">
                                                         Past Clients
                                                     </label>
                                                 </div>
                                                 <div className="form-check form-check-lg mb-2 mb-xl-3">
                                                     <input className="form-check-input" type="checkbox" id="cb2" />
-                                                    <label className="form-check-label ms-1" for="cb2">
+                                                    <label className="form-check-label ms-1" htmlFor="cb2">
                                                         Refinance Leads
                                                     </label>
                                                 </div>
                                                 <div className="form-check form-check-lg mb-2 mb-xl-3">
                                                     <input className="form-check-input" type="checkbox" id="cb3" />
-                                                    <label className="form-check-label ms-1" for="cb3">
+                                                    <label className="form-check-label ms-1" htmlFor="cb3">
                                                         Past Clients
                                                     </label>
                                                 </div>
                                                 <div className="form-check form-check-lg mb-2 mb-xl-3">
                                                     <input className="form-check-input" type="checkbox" id="cb4" />
-                                                    <label className="form-check-label ms-1" for="cb4">
+                                                    <label className="form-check-label ms-1" htmlFor="cb4">
                                                         Refinance Leads
                                                     </label>
                                                 </div>
                                             </div>
                                             <div className="mb-3 mb-xl-4 pb-md-2">
-                                                <label for="notes" className="form-label">Notes</label>
+                                                <label htmlFor="notes" className="form-label">Notes</label>
                                                 <textarea className="form-control form-control-lg" placeholder="Enter here" rows="6"></textarea>
                                             </div>
                                             <p className="text-primary ff-primary fw-medium">Be Sure To Double Check that Your Lists Have

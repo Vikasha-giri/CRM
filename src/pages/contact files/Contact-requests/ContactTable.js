@@ -1,29 +1,13 @@
-import React, { useEffect } from 'react'
-import ContactHeader from '../contact files/ContactHeader'
-import $ from 'jquery';
+import React, { useEffect, useState } from 'react'
 
-const ContactRequest = () => {
-    useEffect(() => {
 
-        $('#campStaffListing').DataTable(
-            {
-                searching: false,
-                "bLengthChange": false,
-                paging: true,
-                "initComplete": function (settings, json) {
-                    $(".dataTables_wrapper .row").addClass("table-wrapup gx-0 mb-2 mb-lg-3");
-                }
-            }
-        );
 
-    }, [])
+const ContactTable = ({contreqData}) => {
+    
+  const [searchTitle, setSearchTitle] = useState("")
+
     return (
-        <>
-            <div className="content-wrapper">
-                <ContactHeader />
-                {/* <CardHeader /> */}
-                <main className="container-fluid py-3 ps-lg-3 pe-lg-4 px-3">
-                    <div className="card border-0 rounded-5 shadow bg-light-secondary overflow-hidden">
+        <>              
                         <div className="card-header rounded-5 border-0 bg-white shadow py-4">
                             <div className="row align-items-center">
                                 <div className="col-xxl-5 col-md-3">
@@ -40,8 +24,9 @@ const ContactRequest = () => {
                                             <div className="input-group my-sm-0 my-2">
                                                 <span className="input-group-text bg-light border-light" id="search-icon"><i
                                                     className="fa-solid fa-sm fa-magnifying-glass"></i></span>
-                                                <input type="text" className="form-control bg-light border-light" placeholder="Search"
-                                                    aria-label="Search" aria-describedby="search-icon" />
+                                                <input type="text" className="form-control bg-light border-light" placeholder="Search"  
+                                                onChange={(e) => setSearchTitle(e.target.value)}
+                                                    aria-label="Search" aria-describedby="search-icon"  />
                                             </div>
                                         </div>
                                     </div>
@@ -64,41 +49,54 @@ const ContactRequest = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                    {contreqData.filter((val) => {
+                                        if (searchTitle === "") {
+                                          return val
+                                        } else if (val.Type.toLowerCase().includes(searchTitle.toLocaleLowerCase())) {
+                                          return val;
+                                        }
+                                      }).map((curElem, index) =>{
+                                        return(
+                                            <>
+                                            <tr key={index}>
                                             <td>
-                                                <span className="text-danger ff-primary fw-medium"> - Pending</span>
+                                                <span className="text-danger ff-primary fw-medium"> {curElem.status }</span>
                                             </td>
                                             <td>
-                                                20 days ago
+                                               {curElem.DateTime}
                                             </td>
                                             <td>
-                                                BULK UPDATE
+                                                {curElem.Type}
                                             </td>
                                             <td className="text-center">
-                                                0
+                                            {curElem.Created}
                                             </td>
                                             <td className="text-center">
-                                                -/-
+                                            {curElem.Updated}
                                             </td>
                                             <td className="text-center">
-                                                0
+                                            {curElem.Skipped}
                                             </td>
                                             <td className="text-center">
-                                                0
+                                            {curElem.Failed}
                                             </td>
                                             <td className="text-center">
-                                                0
+                                            {curElem.Deleted}
                                             </td>
                                         </tr>
+                                            </>
+                                        )
+                                       
+                                      })}
+                                       
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                    </div>
-                </main>
-            </div>
+             
+               
         </>
     )
 }
 
-export default ContactRequest
+export default ContactTable
