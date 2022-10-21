@@ -107,7 +107,7 @@ const Table =  ({ userData })=> {
             </td>
             <td>
                 <div class="d-flex align-items-center justify-content-start text-primary">
-                    <span class="p-2 bg-primary rounded-circle text-white text-center w-25 h-25">+
+                    <span class="p-2 bg-primary rounded-circle text-white text-center add_contact">+
                         <span class="visually-hidden">New alerts</span>
                     </span>
                     <span class="ms-2 lh-1 ff-primary fw-medium">Add Contact</span>

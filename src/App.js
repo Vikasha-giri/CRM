@@ -32,7 +32,7 @@ const App = () => {
     <>
       <div className="wrapper">
         <BrowserRouter> 
-          <Routes>
+          <Routes  basename={'/crm'}>
               <Route index element={<Login />} />
               <Route path="/" element={<Sidebar />} >
               <Route path="/launchpad" element={<Launchpad />} />

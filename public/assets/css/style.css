@@ -13869,6 +13869,13 @@ label {
   }
   .login-form p{
     color: red;
-    text-transform: capitalize;
+   
   }
-/*# sourceMappingURL=style.css.map */
+  .add_contact{
+  width: 30px;
+  height: 30px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/*# sourceMappingURL=style.css.*/

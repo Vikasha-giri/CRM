@@ -8,6 +8,8 @@ import Header from '../components/Header';
 
 
 const Launchpad = () => {
+
+
     return (
         <>
             <div className="content-wrapper">
@@ -43,7 +45,9 @@ const Launchpad = () => {
                                                     Generate more leads htmlForm Google My Business
                                                     Monitor and reply to GMB conversation & reviews.
                                                 </div>
-                                                <button type="button" className="btn btn-primary btn-small">connect</button>
+                                              
+                                                <button type="button" className="btn btn-primary btn-small" >connect</button>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -101,6 +105,7 @@ const Launchpad = () => {
                             </ul>
                         </div>
                     </div>
+                    <ToastContainer />
                 </main>
             </div>
         </>

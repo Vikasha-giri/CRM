@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { useFormik } from "formik";
 import * as yup from "yup";
 import axios from "axios";
-import {  toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import {useNavigate} from "react-router-dom"
 
 
@@ -12,6 +11,7 @@ const validationSchema = yup.object({
     email: yup.string().email().required(),
     password: yup.string().required(),
 });
+
 const Login = () => {
 
     const [error, setError] = useState(null);
@@ -28,7 +28,9 @@ const Login = () => {
             });
 
         if (response.data.status === "ok") {
-           alert(response.data.message)
+        //    alert(response.data.message)   
+
+           toast.success(response.data.message)       
            localStorage.setItem("user-info", JSON.stringify(response.data.data))
             navigate('/launchpad');          
            }else{
@@ -36,6 +38,8 @@ const Login = () => {
         }
     };
 
+    const notify = () => toast("Wow so easy!");
+        
     const formik = useFormik({
         initialValues: { email: "", password: "" },
         validateOnBlur: true,
@@ -77,16 +81,19 @@ const Login = () => {
                                         <a href="#" className="ff-primary fw-medium">Forgot Password</a>
                                     </div>
                                     <div className="text-center mt-xl-5 mt-4 mb-lg-4 mb-3 pb-2">
-                                       <button  disabled={!formik.isValid} type="submit" className="btn btn-primary btn-lg btn-md">Sign In</button>
+                                       <button onClick={notify} disabled={!formik.isValid} type="submit" className="btn btn-primary btn-lg btn-md">Sign In</button>
                                     </div>
+                                    
                                    
                                 </form>
+
                                 <p className="text-center small">By signing in you agree to our <a href="#" className="ff-primary fw-medium">Terms and Conditions</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+           
         </section>
     )
 }
