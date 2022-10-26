@@ -82,7 +82,7 @@ const Table =  ({ userData })=> {
         </div>
     </div>
 </div>
-    <table id="campStaffListing" class="table w-100">
+    <table id="campStaffListing" className="table w-100">
     <thead>
         <tr>
             <th>List/ Campaign Name</th>
@@ -106,11 +106,11 @@ const Table =  ({ userData })=> {
               {curElm.cantact_num}
             </td>
             <td>
-                <div class="d-flex align-items-center justify-content-start text-primary">
-                    <span class="p-2 bg-primary rounded-circle text-white text-center add_contact">+
-                        <span class="visually-hidden">New alerts</span>
+                <div className="d-flex align-items-center justify-content-start text-primary">
+                    <span className="p-2 bg-primary rounded-circle text-white text-center add_contact">+
+                        <span className="visually-hidden">New alerts</span>
                     </span>
-                    <span class="ms-2 lh-1 ff-primary fw-medium">Add Contact</span>
+                    <span className="ms-2 lh-1 ff-primary fw-medium">Add Contact</span>
                 </div>
             </td>
         </tr>

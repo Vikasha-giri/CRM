@@ -22,7 +22,7 @@ const Launchpad = () => {
                                 <li className="list-group-item p-lg-4 p-sm-3">
                                     <div className="row gx-2 align-items-center">
                                         <div className="col-sm-auto w-9">
-                                            <img src={download_our_app} className="img-fluid d-block mx-sm-auto" alt="image" />
+                                            <img src={download_our_app} className="img-fluid d-block mx-sm-auto" alt="download_our_app" />
                                         </div>
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
@@ -37,7 +37,7 @@ const Launchpad = () => {
                                 <li className="list-group-item p-lg-4 p-sm-3">
                                     <div className="row gx-2 align-items-center">
                                         <div className="col-sm-auto w-9">
-                                            <img src={google} className="img-fluid d-block mx-sm-auto" alt="image" />
+                                            <img src={google} className="img-fluid d-block mx-sm-auto" alt="google" />
                                         </div>
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
@@ -55,7 +55,7 @@ const Launchpad = () => {
                                 <li className="list-group-item p-lg-4 p-sm-3">
                                     <div className="row gx-2 align-items-center">
                                         <div className="col-sm-auto w-9">
-                                            <img src={facebook} className="img-fluid d-block mx-sm-auto" alt="image" />
+                                            <img src={facebook} className="img-fluid d-block mx-sm-auto" alt="facebook" />
                                         </div>
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
@@ -72,7 +72,7 @@ const Launchpad = () => {
                                 <li className="list-group-item p-lg-4 p-sm-3">
                                     <div className="row gx-2 align-items-center">
                                         <div className="col-sm-auto w-9">
-                                            <img src={chat} className="img-fluid d-block mx-sm-auto" alt="image" />
+                                            <img src={chat} className="img-fluid d-block mx-sm-auto" alt="chat" />
                                         </div>
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
@@ -88,7 +88,7 @@ const Launchpad = () => {
                                 <li className="list-group-item p-lg-4 p-sm-3">
                                     <div className="row gx-2 align-items-center">
                                         <div className="col-sm-auto w-9">
-                                            <img src={Stripe_Logo} className="img-fluid d-block mx-sm-auto" alt="image" />
+                                            <img src={Stripe_Logo} className="img-fluid d-block mx-sm-auto" alt="Stripe_Logo" />
                                         </div>
                                         <div className="col-sm">
                                             <div className="d-md-flex align-items-center justify-content-between">
@@ -100,8 +100,8 @@ const Launchpad = () => {
                                                 <button type="button" className="btn btn-primary btn-small">connect</button>
                                             </div>
                                         </div>
-                                    </div>
-                                </li>
+                                    </div>                                 
+                                </li>                
                             </ul>
                         </div>
                     </div>

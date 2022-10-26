@@ -1,6 +1,5 @@
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'
 import { useState, useEffect } from 'react'
-import axios from "axios"
 import Header from "../../components/Header"
 import OppoLeads from "./OppoLeads"
 
